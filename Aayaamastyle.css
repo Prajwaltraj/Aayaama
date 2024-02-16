@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    font-family:'Times New Roman', serif;
+    border: border-box;    
+}
+
+.navbar {
+    height: 300px;
+    background-color: rgb(255, 1, 1);
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height:200px;
+    width: 230px;
+}                           
+
+.logo {
+    background-image: url("Aayaama_logo2.jpeg");
+    background-size:cover;
+    height: 200px;
+    width: 95%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+/** box1 **/
+.add-1 {
+    color: rgb(253, 253, 211);
+    font-size: 5rem;
+    margin-left:12px;
+}
+
+.add-2 {
+    font-size: 3rem;
+}
+
+.border {
+    border: 2px solid transparent
+}
+
+.border:hover {
+    border: 2px solid whitesmoke;
+}
+
+/** box2 **/
+.fname {
+  font-size: 2rem ; 
+  font-weight: 900;    
+}
+
+.sname{
+    font-size: 2rem ; 
+    font-weight: 900;   
+}
+
+.panel {
+    display :flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgb(227, 0, 0);
+    height:50px;
+}
+
+.search-select{
+    background-color: bisque;
+    width: 60px;
+    height: 35px;
+    text-align:center;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border: none; 
+}
+
+.search-input{
+    width: 70%;
+    font-size:1.5rem;
+}
+
+.search-icon{
+    width: 55px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+
+.panel-ops p {
+   display: inline;
+   margin-left: 20px;
+   font-size: 1.5rem;
+}
+
+/** hero section **/
+.hero-section{
+    background-image:url("hero-image(aayaama).jpg");
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-msg{
+    background-color: rgb(169, 217, 249) ;
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 85%;
+    margin: 25px;
+}
+
+/** footer**/
+.footer{
+    margin-top: 15px;
+}
+
+.footpanel1{
+    background-color: rgb(192, 22, 22);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.footpanel2{
+    background-color: rgb(142, 23, 23);
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin: 15px;
+}
+
+ul a {
+    display: block;
+    font-size: 1rem;
+    margin-top: 12px;
+    color: whitesmoke;
+}
+
+.footpanel3{
+    background-color: rgb(142, 23, 23);
+    color: white;
+    border-top: 0.5px solid white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footpanel4{
+    background-color: rgb(192, 22, 22);
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
